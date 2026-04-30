@@ -1,7 +1,7 @@
 # TranslateAPI Shell SDK
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Documentation](https://img.shields.io/badge/docs-forcekeys.com-blue.svg)](https://translate.forcekeys.com/docs)
+[![Documentation](https://img.shields.io/badge/docs-deeptranslate.online-blue.svg)](https://deeptranslate.online/docs)
 [![Platform](https://img.shields.io/badge/Platform-Bash%2FShell-blue.svg)](https://www.gnu.org/software/bash/)
 
 Official Bash/Shell client for the TranslateAPI translation service. Translate text, documents, and images between 70+ languages directly from your terminal or shell scripts. Perfect for automation, CI/CD pipelines, and system administration tasks.
@@ -62,7 +62,7 @@ sudo yum install translate-api
 
 ### 1. Get Your API Key
 
-First, sign up at [translate.forcekeys.com](https://translate.forcekeys.com) to get your free API key.
+First, sign up at [deeptranslate.online](https://deeptranslate.online) to get your free API key.
 
 ### 2. Set Your API Key
 
@@ -207,7 +207,7 @@ Create `~/.translate-api`:
 ```bash
 # API Configuration
 TRANSLATE_API_KEY="your_api_key_here"
-TRANSLATE_API_URL="https://api.translate.forcekeys.com/api/v1"
+TRANSLATE_API_URL="https://api.deeptranslate.online/api/v1"
 
 # Default settings
 DEFAULT_SOURCE_LANG="en"
@@ -224,7 +224,7 @@ HTTPS_PROXY="http://proxy.example.com:8080"
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `TRANSLATE_API_KEY` | Your API key | Required |
-| `TRANSLATE_API_URL` | API base URL | `https://api.translate.forcekeys.com/api/v1` |
+| `TRANSLATE_API_URL` | API base URL | `https://api.deeptranslate.online/api/v1` |
 | `TRANSLATE_DEFAULT_SOURCE` | Default source language | `auto` |
 | `TRANSLATE_DEFAULT_TARGET` | Default target language | `en` |
 | `TRANSLATE_OUTPUT_FORMAT` | Output format | `text` |
@@ -511,9 +511,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- **Documentation**: [translate.forcekeys.com/docs](https://translate.forcekeys.com/docs)
+- **Documentation**: [deeptranslate.online/docs](https://deeptranslate.online/docs)
 - **Issues**: [GitHub Issues](https://github.com/forcekeys/translate-api-shell/issues)
-- **Email**: support@forcekeys.com
+- **Email**: support@deeptranslate.online
 - **Discord**: [Join our Discord](https://discord.gg/forcekeys)
 
 ## License

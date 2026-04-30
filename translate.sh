@@ -15,7 +15,7 @@
 set -e
 
 # Default configuration
-TRANSLATE_API_BASE_URL="https://api.translate.forcekeys.com/api/v1"
+TRANSLATE_API_BASE_URL="https://api.deeptranslate.online/api/v1"
 TRANSLATE_API_TIMEOUT=30
 
 # Colors for output
@@ -446,7 +446,7 @@ Commands:
 
 Environment variables:
   translate_api_key      Your API key (required)
-  TRANSLATE_API_BASE_URL API base URL (default: https://api.translate.forcekeys.com/api/v1)
+  TRANSLATE_API_BASE_URL API base URL (default: https://api.deeptranslate.online/api/v1)
   TRANSLATE_VERBOSE      Set to 1 for verbose output
 
 Examples:
